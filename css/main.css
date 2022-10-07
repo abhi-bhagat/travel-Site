@@ -43,3 +43,41 @@ header{
     padding:.75rem 1.5rem;
     border-radius: 25px;
 }
+
+
+
+/* RECOMMENDATIONS SECTION */
+.recommendations{
+    padding :3rem 0;
+}
+.recommendations__title{
+    margin-bottom: 2rem;
+    color: var(--primaryColor);
+}
+.card-holder{
+    display: flex;
+    margin-bottom: 2rem;
+}
+.card{
+    border-radius: 5px;
+    height: 100%;
+    border: 1px solid rgba(0,0,0,.2);
+    box-shadow: 0 4px 4px rgba(0,0,0,0.2);
+    position:relative;
+    /* margin:0 1.5rem; */
+}
+.a__middle{
+    margin: 0 2rem;
+
+}
+.card__img{
+    border-radius: 5px;
+}
+
+.card__heading{
+    position:absolute;
+    bottom: 1rem;
+    right: 1rem;
+    color: #fff;
+    font-size: 1.5rem;
+}
