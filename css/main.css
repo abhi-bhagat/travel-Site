@@ -1,0 +1,45 @@
+:root{
+
+    /* background colors */
+    --backgroundColor :#FEFAF5;
+    --backgroundNav:#ffffff;
+
+    /* Colors */
+    --primaryColor: #335576;
+    --accentColor:#DB7A4E;
+
+}
+
+header{
+    background-color: var(--backgroundColor);
+}
+.hero{
+    display: flex;
+    padding: 4rem 0;
+    text-align: left;
+}
+.hero__body{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+.hero__heading{
+    font-size: 3rem;
+    color: var(--primaryColor);
+}
+.hero__para{
+    margin: 2rem 4rem 2rem 0;
+    word-spacing: .25rem;
+    line-height: 1.5;
+    color: var(--primaryColor);
+}
+
+.btn{
+    background-color: var(--accentColor);
+    width: 25%;
+    text-align: center;
+    color: #fff;
+    padding:.75rem 1.5rem;
+    border-radius: 25px;
+}

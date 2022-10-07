@@ -11,14 +11,22 @@
 	</head>
 	<body>
 		<!-- NAVBAR -->
-		<nav class="nav container">
+		<nav class="nav">
+		<div class="container nav__wrapper">
 			<a href="#" class="site-logo">TRAVEL SITE</a>
 			<ul class="navbar__list">
-				<li class="navbar__list-items"><a href="#">Home</a></li>
-				<li class="navbar__list-items"><a href="#">Hawai</a></li>
-				<li class="navbar__list-items"><a href="#">Iceland</a></li>
-				<li class="navbar__list-items"><a href="#">Greece</a></li>
+				<li class="navbar__items active"><a href="#">Home</a></li>
+				<li class="navbar__items">
+					<a href="./pages/hawaii.html">Hawaii</a>
+				</li>
+				<li class="navbar__items">
+					<a href="./pages/iceland.html">Iceland</a>
+				</li>
+				<li class="navbar__items">
+					<a href="./pages/greece.html">Greece</a>
+				</li>
 			</ul>
+		</div>
 		</nav>
 		<!-- HEADER/HERO SECTION -->
 		<header>
@@ -28,7 +36,7 @@
 						Travelling comes With Endless Discoveries
 					</h1>
 					<p class="hero__para">
-						Don't let your dreams be just dreams. Experiance the world by
+						Don't let your dreams be just dreams. Experience the world by
 						booking a vacation with us now.
 					</p>
 					<a href="#" class="cta btn">Get Started</a>
@@ -71,52 +79,44 @@
 				</div>
 			</div>
 		</section>
-        <!-- FOOTER -->
-        <footer>
-            <div class="container--small footer">
-                <div class="contact footer__content">
-                    <h3 class="contact__heading footer__content__heading">Contact</h3>
-                    <p class="contact__label footer__content__label">EMAIL</p>
-                    <p class="contact__body footer__content__body">
-                        info@travelsite.com
-                    </p>
-                </div>
-                <div class="hours footer__content">
-                    <h3 class="hours__heading footer__content__heading">Hours</h3>
-                    <div class="weekday">
-                        <p class="hours__label footer__content__label">
-                            MONDAY-FRIDAY
-                        </p>
-                        <p class="hours__body footer_content__body">
-                            9:00 AM - 5:00 PM
-                        </p>
-                    </div>
-                    <div class="saturday">
-                        <p class="hours__label footer__content__label">
-                            SATURDAY
-                        </p>
-                        <p class="hours__body footer_content__body">
-                            10:00 AM - 4:00 PM
-                        </p>
-                    </div>
-                    <div class="sunday">
-                        <p class="hours__label footer__content__label">
-                            SUNDAY
-                        </p>
-                        <p class="hours__body footer_content__body">
-                            Closed
-                        </p>
-                    </div>
-                </div>
-                <div class="social footer__content">
-                    <h3 class="social__heading footer__content__heading">Social</h3>
-                    <div class="social__body footer__content__body">
-                        <a href="#" class="social__icon"><img src="./assets/Icons/icon-instagram.png" alt="Instagram"></a>
-                        <a href="#" class="social__icon"><img src="./assets/Icons/icon-facebook.png" alt="Facebook"></a>
-                        <a href="#" class="social__icon"><img src="./assets/Icons/icon-twitter.png" alt="Twitter"></a>
-                    </div>
-                </div>
-            </div>
-        </footer>
+		<!-- FOOTER -->
+		<footer>
+			<div class="container--small footer">
+				<div class="contact footer-content">
+					<h3 class="contact__heading footer-content__heading">Contact</h3>
+					<p class="contact__label footer-content__label">EMAIL</p>
+					<p class="contact__body footer__content__body">info@travelsite.com</p>
+				</div>
+				<div class="hours footer__content">
+					<h3 class="hours__heading footer-content__heading">Hours</h3>
+					<div class="weekday">
+						<p class="hours__label footer-content__label">MONDAY-FRIDAY</p>
+						<p class="hours__body footer-content__body">9:00 AM - 5:00 PM</p>
+					</div>
+					<div class="saturday">
+						<p class="hours__label footer-content__label">SATURDAY</p>
+						<p class="hours__body footer-content__body">10:00 AM - 4:00 PM</p>
+					</div>
+					<div class="sunday">
+						<p class="hours__label footer-content__label">SUNDAY</p>
+						<p class="hours__body footer-content__body">Closed</p>
+					</div>
+				</div>
+				<div class="social footer__content">
+					<h3 class="social__heading footer-content__heading">Social</h3>
+					<div class="social__body footer-content__body">
+						<a href="#" class="social__icon"
+							><img src="./assets/Icons/icon-instagram.png" alt="Instagram"
+						/></a>
+						<a href="#" class="social__icon"
+							><img src="./assets/Icons/icon-facebook.png" alt="Facebook"
+						/></a>
+						<a href="#" class="social__icon"
+							><img src="./assets/Icons/icon-twitter.png" alt="Twitter"
+						/></a>
+					</div>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>
