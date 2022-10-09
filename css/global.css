@@ -48,10 +48,12 @@ img{
     position: sticky;
     z-index: 1;
     top: 0;
+    animation: 1s ease-out slideDown;
 }
 .nav__wrapper{
     display: flex;
     justify-content: space-between;
+
 }
 .navbar__list{
     display: flex;
@@ -77,6 +79,15 @@ margin: 0.5rem 0.5rem 0.5rem 0;
     border-bottom: 2px solid var(--accentColor);
 }
 
+
+.earth{
+    animation:  1s ease-in-out scaleContent, 180s linear 1.2s rotateEarth infinite;
+    
+}
+.hero__body{
+    animation: scaleContent 1s ease-in-out ;
+
+}
 /* ==========================card styling ======================= */
 
   .card{
@@ -152,4 +163,48 @@ footer{
     height: 1.75rem;
     width: 1.75rem;
     /* padding: 0 .25rem; */
+}
+
+
+
+
+
+
+
+/* ========animations */
+
+@keyframes slideDown {
+    0%{
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+@keyframes rotateEarth {
+    from{
+        transform: rotate(360deg);
+
+
+        
+    }
+    to{
+        transform: rotate(0deg);
+
+       
+
+    }
+}
+
+@keyframes scaleContent{
+    from{
+        transform-origin: center;
+        transform:scale(75%,75%);
+        opacity:0;
+    }
+    to{
+        transform: scale(100%,100%);
+        opacity: 1;
+    }
 }
