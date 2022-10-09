@@ -67,6 +67,7 @@ img{
 }
 .navbar__items{
     margin: 0.5rem 0 0.5rem 0.5rem;
+
 }
 .site-logo{
 margin: 0.5rem 0.5rem 0.5rem 0;
@@ -80,6 +81,14 @@ margin: 0.5rem 0.5rem 0.5rem 0;
 }
 
 
+.navbar__items:hover{
+    border-bottom: 2px solid var(--accentColor);
+}
+
+
+
+
+/* hero section animation  */
 .earth{
     animation:  1s ease-in-out scaleContent, 180s linear 1.2s rotateEarth infinite;
     
@@ -95,8 +104,13 @@ margin: 0.5rem 0.5rem 0.5rem 0;
     height: 100%;
     border: 1px solid rgba(0,0,0,.2);
     box-shadow: 0 4px 4px rgba(0,0,0,0.2);
+    transition-duration: .5s;
   }
+.card:hover{
+    transform: translateY(-10px) scale(1.02);
+    border-top: 5px solid var(--accentColor);
 
+}
 /* ==========================Footer styling ===================== */
 .footer-content__heading{
     color: var(--primaryColor);
@@ -184,16 +198,10 @@ footer{
 
 @keyframes rotateEarth {
     from{
-        transform: rotate(360deg);
-
-
-        
+        transform: rotate(360deg);   
     }
     to{
         transform: rotate(0deg);
-
-       
-
     }
 }
 
