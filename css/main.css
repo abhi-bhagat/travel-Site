@@ -104,3 +104,23 @@ header{
 
 
 
+
+
+@media screen and (max-width:860px){
+    .hero{
+        display: block;
+        text-align: center;
+    }
+    .hero__body{
+        align-items: center;
+    }
+
+    .hero__img {
+        display: block;
+        
+        width: 50%;
+        text-align: center;
+        padding: 2rem;
+        margin: 2rem auto;
+    }
+}

@@ -216,3 +216,34 @@ footer{
         opacity: 1;
     }
 }
+
+
+
+/* =========responsiveness============== */
+@media screen and (max-width:1080px ){
+    .container--small{
+        width: 90%;
+    }
+
+    .btn{
+        width: 50% !important;
+    }
+}
+
+
+
+@media screen and (max-width:860px){
+    .footer ,.days{
+        display: block;
+    text-align: center;
+
+    }
+    .contact  , .hours , .social{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .footer-content__heading{
+        padding-bottom: .5rem;
+        margin-top: 1.5rem;
+    }
+}
