@@ -1,0 +1,69 @@
+:root{
+
+    /* background colors */
+    --backgroundColor :#FEFAF5;
+    --backgroundNav:#ffffff;
+
+    /* Colors */
+    --primaryColor: #335576;
+    --accentColor:#DB7A4E;
+
+}
+
+/* backgrounds */
+.hawaii{
+    background-image: url("../assets/Images/hawaii.jpg");
+    background-size: 100%;
+    background-position: center;
+    height: 80vh;
+    width: 100%;
+}
+.greece{
+    background: url("../assets/Images/greece.jpg");
+    background-size: 100%;
+    background-position: center;
+    height: 80vh;
+    width: 100%;
+}
+.iceland{
+    background: url("../assets/Images/iceland.jpg");
+    background-size: 100%;
+    background-position: center;
+    height: 80vh;
+    width: 100%;
+}
+
+
+/* heading */
+.destination__title{
+    color: #fff;
+    font-size: 5rem;
+    padding: 3rem 0 2rem 0;
+}
+
+/* cards */
+.card-holder{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    width: 30%;
+    padding: 1rem;
+    margin-top: 2rem;
+    background-color: #fff;
+    text-align: center;
+}
+.card__title{
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.card-holder p{
+    border-bottom: 2px solid black;
+    margin-bottom: 1.5rem;
+}
+.activity-list__item{
+    
+    padding:1rem;
+    margin-bottom: 1rem;
+    background-color: var(--backgroundColor);
+}

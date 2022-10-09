@@ -56,9 +56,12 @@ img{
 .navbar__list{
     display: flex;
 }
-.navbar__items, .site-logo{
+.navbar__items{
     padding: .5rem;
     /* margin: 0.5rem;    */
+}
+.site-logo{
+    padding: .5rem .5rem .5rem 0;
 }
 .navbar__items{
     margin: 0.5rem 0 0.5rem 0.5rem;
@@ -74,11 +77,16 @@ margin: 0.5rem 0.5rem 0.5rem 0;
     border-bottom: 2px solid var(--accentColor);
 }
 
+/* ==========================card styling ======================= */
 
+  .card{
+    border-radius: 5px;
+    height: 100%;
+    border: 1px solid rgba(0,0,0,.2);
+    box-shadow: 0 4px 4px rgba(0,0,0,0.2);
+  }
 
-
-
-/* Footer styling */
+/* ==========================Footer styling ===================== */
 .footer-content__heading{
     color: var(--primaryColor);
     padding-bottom: 2rem;
