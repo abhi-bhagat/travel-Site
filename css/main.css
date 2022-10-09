@@ -42,8 +42,29 @@ header{
     color: #fff;
     padding:.75rem 1.5rem;
     border-radius: 25px;
+    position: relative;
+    transition: .5s;
 }
 
+.btn:after{
+    content:url("../assets/Icons/plane.png");
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -25%;
+    transition: 0.5s;
+    margin-left: 4px;
+
+}
+.btn:hover{
+    padding-left: .5rem;
+}
+.btn:hover::after{
+    opacity: 1;
+    right: 2%;
+    padding-left: 1rem;
+
+}
 
 
 /* RECOMMENDATIONS SECTION */
